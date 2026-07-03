@@ -1,0 +1,5 @@
+order_id,customer_name,product,quantity,price,total_amount
+1001,John Doe,Laptop,2,55000,110000
+1002,Jane Smith,Mouse,5,500,2500
+1003,Robert Brown,Keyboard,3,1200,3600
+1004,Alice Johnson,Monitor,1,15000,15000
