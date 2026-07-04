@@ -1,5 +1,5 @@
-DB_HOST = "db.yhfqfpwfdihxvimhvlhs.supabase.co"
+DB_HOST = "aws-1-ap-south-1.pooler.supabase.com"
 DB_NAME = "postgres"
-DB_USER = "postgres"
+DB_USER = "postgres.yhfqfpwfdihxvimhvlhs"
 DB_PASSWORD = "Philosanjib123$"
-DB_PORT = "5432"
+DB_PORT = "6543"
