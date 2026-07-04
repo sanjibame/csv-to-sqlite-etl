@@ -13,6 +13,21 @@ def load_data(data):
     cursor = conn.cursor()
 
     for _, row in data.iterrows():
+
+        cursor.execute("""
+    CREATE TABLE IF NOT EXISTS sales (
+        order_id INTEGER,
+        customer_name VARCHAR(100),
+        product VARCHAR(100),
+        quantity INTEGER,
+        price NUMERIC,
+        total_amount NUMERIC
+    )
+""")
+
+
+
+        
         cursor.execute(
             """
             INSERT INTO sales
